@@ -18,7 +18,7 @@ After cloning, you'll find a new directory named Is-It-Up-Yet-. Navigate into it
 
 Make the file executable, make sure you're in the folder with the script and run: `chmod +x isitup.sh`
 
-From the terminal, `./isitup.sh`
+From the terminal, run `./isitup.sh`
 
 You need to provide your own mp3 file and update the script to tell it where to play from.
 
