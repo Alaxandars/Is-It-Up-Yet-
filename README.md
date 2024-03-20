@@ -1,11 +1,15 @@
 ## A very simple bash script. 
 
 
-Tired of watching intently for your internet to come back online? This simple script will sound an alarm when your service comes back up.
+Tired of watching intently for your internet to come back online? This basic script will sound an alarm when your service comes back up.
+
+Is It Up Yet is a script designed to send a ping to a destination every 20 seconds, if it doesn't get a reply within 5 seconds it tries to resend the ping. When its target location comes back online, it  runs 25 pings to the same destination, prints the lasounds an alarm to let you know its up. I might update this to send messages to other devices on a local network, the primary reason I made it is to have an active alert when my internet service comes back online so I can get back to work without needing to check it every 10 minutes.
+You could very easily use this to ping a local or remote server (ensure the device you're pinging has a static IP and is not blocking pings) for an active alert when it comes back online.
+
 
 It can ping whatever URL or IP you need it to, if you can ping it it'll work.
 
-Requires bash, mpg123, and iputils ping 
+Requires bash, mpg123, iputils ping, and you probably want some speakers
 
 Oh and you'll need to provide your own alarm file.
 
