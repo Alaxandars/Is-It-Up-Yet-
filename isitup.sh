@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SERVER=1.1.1.1
+SERVER=1.1.1.1 #replace this with whatever you're trying to reach
 
 # Sound file path
-SOUND_FILE="/home/alax/Documents/alarm.mp3"
+SOUND_FILE="/home/alarm.mp3" #enter your sound file directory here
 
 # noise function
 play_alarm() {
