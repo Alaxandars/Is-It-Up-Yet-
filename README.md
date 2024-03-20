@@ -16,9 +16,9 @@ Clone the repo: `git clone https://github.com/Alaxandars/Is-It-Up-Yet-.git`
 
 After cloning, you'll find a new directory named Is-It-Up-Yet-. Navigate into it using `cd Is-It-Up-Yet-`
 
-Make the file executable, make sure you're in the folder with the script and run: `chmod +x internet_monitor.sh`
+Make the file executable, make sure you're in the folder with the script and run: `chmod +x isitup.sh`
 
-From the terminal, `./internet_monitor.sh`
+From the terminal, `./isitup.sh`
 
 You need to provide your own mp3 file and update the script to tell it where to play from.
 
