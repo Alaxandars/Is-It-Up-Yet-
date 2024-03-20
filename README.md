@@ -4,3 +4,4 @@ Tired of watching intently for your internet to come back online? This simple sc
 It can ping whatever URL or IP you need it to, if you can ping it it'll work.
 
 Requires bash, mpg123, and iputils ping 
+Oh and you'll need to provide your own alarm file.
